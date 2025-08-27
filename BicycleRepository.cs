@@ -6,6 +6,7 @@ using System.Linq;
 
 namespace BicycleApp_MVC.WebApp.Repositories
 {
+
     public class BicycleRepository : IBicycleRepository
     {
         private List<Bicycle> _bicycles;
@@ -120,3 +121,4 @@ namespace BicycleApp_MVC.WebApp.Repositories
         }
     }
 }
+
